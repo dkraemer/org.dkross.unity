@@ -1,0 +1,23 @@
+{
+  "name": "org.dkross.unity",
+  "version": "1.0.1",
+  "displayName": "DKrOSS Library for Unity",
+  "description": "Collection of classes for Unity",
+  "unity": "2019.4",
+  "unityRelease": "11f1",
+  "licensesUrl": "https://github.com/dkraemer/org.dkross.unity/blob/main/LICENSE",
+  "changelogUrl": "https://github.com/dkraemer/org.dkross.unity/commits/main",
+  "documentationUrl": "https://github.com/dkraemer/org.dkross.unity",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "author": {
+    "name": "Daniel Kraemer",
+    "email": "dkraemer@dkross.org",
+    "url": "https://github.com/dkraemer"
+  },
+  "type": "tool",
+  "dependencies": {
+    "com.unity.modules.screencapture": "1.0.0"
+  }
+}
