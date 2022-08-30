@@ -1,4 +1,3 @@
-#if UNITY_EDITOR
 using System;
 using System.IO;
 using UnityEditor;
@@ -15,8 +14,8 @@ namespace DKrOSS.Unity.Editor
             var basePath = Path.Combine(".", "Assets", "Screenshots");
             var fileName = $"Screenshot_{timestamp}_{Screen.width}x{Screen.height}.png";
             var path = Path.Combine(basePath, fileName);
-            
-            if(!Directory.Exists(basePath))
+
+            if (!Directory.Exists(basePath))
             {
                 Directory.CreateDirectory(basePath);
             }
@@ -25,4 +24,3 @@ namespace DKrOSS.Unity.Editor
         }
     }
 }
-#endif

@@ -1,7 +1,9 @@
 {
     "name": "DKrOSS.Unity.Editor",
     "rootNamespace": "DKrOSS.Unity.Editor",
-    "references": [],
+    "references": [
+        "DKrOSS.Unity"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
