@@ -2,7 +2,7 @@
     "name": "DKrOSS.Unity.Editor",
     "rootNamespace": "DKrOSS.Unity.Editor",
     "references": [
-        "DKrOSS.Unity"
+        "GUID:dfe1841e4d495154086b6ad51a4b810c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

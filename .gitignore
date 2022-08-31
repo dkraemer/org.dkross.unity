@@ -63,4 +63,6 @@ Thumbs.db.meta
 # VS Code
 *.vscode
 
+### Custom ###
 /.vsconfig
+/.idea
